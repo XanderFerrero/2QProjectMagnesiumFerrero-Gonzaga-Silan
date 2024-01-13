@@ -72,7 +72,7 @@ li{
 
 
 .topics{
-    background: url("../images/CLOCK.jpg");
+    background: url("../images/CLOCK.jpg") no-repeat;
     background-size:cover;
     position:relative;
     display:flex;
@@ -171,12 +171,11 @@ aside section{
 
 .about-credits{
     display:flex;
+    position:relative;
     justify-content:space-evenly;
+    z-index:1;
 }
 
-.about-credits div{
-    width: 30%;
-}
 
 .paginator a div{
     border: 1px solid;
@@ -261,35 +260,35 @@ a{
 .about-credits div{
     width: 32%;
     height: 300px;
-    position:relative;
     border: 2px solid;
+    position:relative;
 }
 
 #about-xand{
-    background: url("../images/XAND.jpg");
+    background: url("../images/XAND.jpg") no-repeat;
     background-size:cover;
     background-position-y: -90px;
     background-repeat:no-repeat;
 }
 
 #about-iris{
-    background: url('../images/IRIS.jpg');
-    background-size:contain;
+    background: url('../images/IRIS.jpg')  no-repeat;
+    background-size:cover;
 }
 
 #about-kim{
-    background:url("../images/KIMMY.jpg");
+    background:url("../images/KIMMY.jpg")  no-repeat;
     background-size:cover;
 }
 
 .about-credits h3{
-    width:100%;
     position:absolute;
-    bottom:90%;
+    width:100%;
     padding:.5em;
     background-color:#D4B3AF;
     border-radius: 1em;
     border: 2px solid;
+    bottom:0;
 }
 
 p{
