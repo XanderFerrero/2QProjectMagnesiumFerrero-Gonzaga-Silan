@@ -1,0 +1,46 @@
+.paginator a:hover div{
+    transform: scale(1.2)
+}
+
+section{
+    animation: content-colah 1s linear alternate infinite;
+}
+
+h2{
+    animation: titol 2s linear infinite;
+}
+
+@keyframes content-colah{
+    from{
+        background-color:lightcyan;
+    }to{
+        background-color:violet;
+    }
+}
+
+@keyframes titol{
+    from{
+        transform: translateX(-100px);
+    }
+    50%{
+        transform: translate(100px);
+    }
+    to{
+        transform: translate(-100px);
+    }
+}
+
+@keyframes pulse{
+    0% {
+		background-position: 0% 50%;
+	}
+	100% {
+		background-position: 100% 50%;
+	}
+}
+
+header, nav{
+    background: linear-gradient(100deg, blue 0%, red 100%);
+    background-size:400% 400%;
+    animation: pulse 10s linear alternate infinite;
+}

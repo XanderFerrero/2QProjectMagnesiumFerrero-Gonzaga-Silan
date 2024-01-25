@@ -188,6 +188,8 @@ aside section{
     background-color:#D4B3AF;
 }
 
+
+
 a{
     text-decoration:none;
 }
@@ -328,6 +330,11 @@ p{
 #rizal{
     background: url("../images/RIZAL\ MONUMENT.jpg") no-repeat;
     background-size:cover;
+}
+
+#bloodcompact{
+    background: url("../images/TheBloodCompact.jpg") no-repeat;
+    background-position:center center;
 }
 
 .main-sec h2{
