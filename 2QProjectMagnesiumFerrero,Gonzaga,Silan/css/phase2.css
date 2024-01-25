@@ -7,14 +7,14 @@ section{
 }
 
 h2{
-    animation: titol 2s linear infinite;
+    animation: titol 4s linear infinite, content-colah 4s alternate infinite;
 }
 
 @keyframes content-colah{
     from{
-        background-color:lightcyan;
+        background-color:white;
     }to{
-        background-color:violet;
+        background-color:red;
     }
 }
 
@@ -39,8 +39,28 @@ h2{
 	}
 }
 
+@keyframes tiktok{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
+
 header, nav{
-    background: linear-gradient(100deg, blue 0%, red 100%);
+    background: linear-gradient(100deg, white , red);
     background-size:400% 400%;
-    animation: pulse 10s linear alternate infinite;
+    animation: pulse 2s linear alternate infinite;
+}
+
+.accounts{
+    background: linear-gradient(100deg, cyan, violet);
+    background-size:400% 400%;
+    animation: pulse 2s linear alternate infinite;
+}
+
+#logo{
+    animation: tiktok 1s linear infinite;
+    border-radius:50%;
 }
